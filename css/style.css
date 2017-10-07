@@ -107,6 +107,9 @@ a, li {
   font-size: 40px;
   color: white;
   display: flex;
+  margin-top: 15px;
+  height: 300px;
+  justify-content: center;
 }
 
 .stories {
@@ -134,6 +137,10 @@ a, li {
   font-size: 30px;
   color: white;
   display: flex;
+  height: 300px;
+  margin-top: 15px;
+  text-align: center;
+  justify-content: center;
 }
 
 .burger {
@@ -153,6 +160,10 @@ a, li {
   font-size: 30px;
   color: white;
   display: flex;
+  height: 300px;
+  margin-top: 15px;
+  text-align: center;
+  justify-content: center;
 }
 
 .story {
@@ -180,6 +191,10 @@ a, li {
   font-size: 30px;
   color: white;
   display: flex;
+  height: 300px;
+  margin-top: 15px;
+  text-align: center;
+  justify-content: center;
 }
 
 .news-bites {
