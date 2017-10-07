@@ -17,7 +17,7 @@
   border-color: black;
 }
 
-span {
+#header-text {
   padding-left: 10px;
 }
 
@@ -54,7 +54,6 @@ a, li {
   border-color: black;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
 }
 
 .column-large {
@@ -62,7 +61,6 @@ a, li {
   border-color: black;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
 }
 
 .column-medium {
