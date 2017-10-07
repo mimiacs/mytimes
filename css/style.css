@@ -125,6 +125,9 @@ a, li {
   border: solid;
   border-color: black;
   border-width: thin;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .earth {
@@ -148,6 +151,8 @@ a, li {
   border-color: black;
   border-width: thin;
   display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .cameras {
@@ -170,6 +175,9 @@ a, li {
   border: solid;
   border-color: black;
   border-width: thin;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .text-content {
@@ -179,6 +187,9 @@ a, li {
   font-family: Georgia;
   font-size: 17px;
   color: black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .cats {
