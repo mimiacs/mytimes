@@ -52,7 +52,6 @@ a, li {
 .earth {
   color: white;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
-  font-family: verdana;
 }
 
 .cameras {
@@ -62,10 +61,16 @@ a, li {
 
 footer {
   background-color: mediumaquamarine;
+  display: flex;
 }
 
 .mytimes {
   color: white;
   font-weight:bold;
   font-size: 20px;
+  display: inline-flex;
+}
+
+.footer-nav {
+  display: flex;
 }
