@@ -106,6 +106,7 @@ a, li {
   font-weight: bold;
   font-size: 40px;
   color: white;
+  display: flex;
 }
 
 .stories {
@@ -132,12 +133,14 @@ a, li {
   font-weight: bold;
   font-size: 30px;
   color: white;
+  display: flex;
 }
 
 .burger {
   border: solid;
   border-color: black;
   border-width: thin;
+  display: flex;
 }
 
 .cameras {
@@ -149,6 +152,7 @@ a, li {
   font-weight: bold;
   font-size: 30px;
   color: white;
+  display: flex;
 }
 
 .story {
@@ -175,6 +179,7 @@ a, li {
   font-weight: bold;
   font-size: 30px;
   color: white;
+  display: flex;
 }
 
 .news-bites {
@@ -187,6 +192,10 @@ a, li {
   font-family: Georgia;
   font-size: 17px;
   color: black;
+}
+
+span {
+  display: flex;
 }
 /*
 .news {
