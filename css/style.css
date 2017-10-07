@@ -92,6 +92,9 @@ a, li {
   border: solid;
   border-color: black;
   border-width: thin;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 
 #mother-header {
@@ -109,6 +112,9 @@ a, li {
   border: solid;
   border-color: black;
   border-width: thin;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 
 .orca {
@@ -121,6 +127,11 @@ a, li {
   border: solid;
   border-color: black;
   border-width: thin;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
 }
 
 .burger {
@@ -133,6 +144,11 @@ a, li {
   border: solid;
   border-color: black;
   border-width: thin;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
 }
 
 .story {
@@ -145,18 +161,32 @@ a, li {
   border: solid;
   border-color: black;
   border-width: thin;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 
 .cats {
   border: solid;
   border-color: black;
   border-width: thin;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
 }
 
 .news-bites {
   border: solid;
   border-color: black;
   border-width: thin;
+}
+
+.narrative {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 /*
 .news {
