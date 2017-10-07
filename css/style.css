@@ -98,6 +98,11 @@ a, li {
   border: solid;
   border-color: black;
   border-width: thin;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
 }
 
 .stories {
