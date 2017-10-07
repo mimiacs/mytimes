@@ -53,7 +53,8 @@ a, li {
   border: solid;
   border-color: black;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .column-large {
@@ -61,6 +62,7 @@ a, li {
   border-color: black;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
 }
 
 .column-medium {
