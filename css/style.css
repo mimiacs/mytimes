@@ -13,6 +13,8 @@
   align-items: center;
   align-content: space-between;
   padding-left: 20px;
+  border: solid;
+  border-color: black;
 }
 
 span {
@@ -45,6 +47,94 @@ a, li {
   align-content: flex-end;
   padding: 5px;
   color: black;
+}
+
+.news {
+  border: solid;
+  border-color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.column-large {
+  border: solid;
+  border-color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.column-medium {
+  border: solid;
+  border-color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.column-small {
+  border: solid;
+  border-color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.mother {
+  border: solid;
+  border-color: black;
+}
+
+#mother-header {
+  border: solid;
+  border-color: black;
+}
+
+.stories {
+  border: solid;
+  border-color: black;
+}
+
+.orca {
+  border: solid;
+  border-color: black;
+}
+
+.earth {
+  border: solid;
+  border-color: black;
+}
+
+.burger {
+  border: solid;
+  border-color: black;
+}
+
+.cameras {
+  border: solid;
+  border-color: black;
+}
+
+.story {
+  border: solid;
+  border-color: black;
+}
+
+.text-content {
+  border: solid;
+  border-color: black;
+}
+
+.cats {
+  border: solid;
+  border-color: black;
+}
+
+.news-bites {
+  border: solid;
+  border-color: black;
+}
+/*
+.news {
+  display: flex;
+  flex-direction: column;
 }
 
 .mother {
@@ -93,3 +183,4 @@ footer {
   align-items: flex-end;
   align-items: flex-end;
 }
+*/
