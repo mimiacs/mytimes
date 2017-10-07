@@ -6,4 +6,22 @@
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  display: flex;
+  color: mediumaquamarine;
+  align-items: center;
+  align-content: space-between;
+}
+
+#header-nav {
+  display: inline-flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+ul {
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  flex-direction: row;
+  align-content: flex-end;
 }
