@@ -15,6 +15,7 @@
   padding-left: 20px;
   border: solid;
   border-color: black;
+  border-width: thin;
 }
 
 #header-text {
@@ -54,6 +55,7 @@ a, li {
   border-color: black;
   display: flex;
   flex-direction: row;
+  border-width: thin;
 }
 
 .column-large {
@@ -61,6 +63,7 @@ a, li {
   border-color: black;
   display: flex;
   flex-direction: column;
+  border-width: thin;
 }
 
 .column-medium {
@@ -68,6 +71,7 @@ a, li {
   border-color: black;
   display: flex;
   flex-direction: column;
+  border-width: thin;
 }
 
 .column-small {
@@ -75,61 +79,73 @@ a, li {
   border-color: black;
   display: flex;
   flex-direction: column;
+  border-width: thin;
 }
 
 .mother {
   border: solid;
   border-color: black;
+  border-width: thin;
 }
 
 #mother-header {
   border: solid;
   border-color: black;
+  border-width: thin;
 }
 
 .stories {
   border: solid;
   border-color: black;
+  border-width: thin;
 }
 
 .orca {
   border: solid;
   border-color: black;
+  border-width: thin;
 }
 
 .earth {
   border: solid;
   border-color: black;
+  border-width: thin;
 }
 
 .burger {
   border: solid;
   border-color: black;
+  border-width: thin;
 }
 
 .cameras {
   border: solid;
   border-color: black;
+  border-width: thin;
 }
 
 .story {
   border: solid;
   border-color: black;
+  border-width: thin;
 }
 
 .text-content {
   border: solid;
   border-color: black;
+  border-width: thin;
 }
 
 .cats {
   border: solid;
   border-color: black;
+  border-width: thin;
 }
 
 .news-bites {
   border: solid;
   border-color: black;
+  border-width: thin;
 }
 /*
 .news {
