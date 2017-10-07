@@ -95,6 +95,9 @@ a, li {
   font-family: Georgia;
   font-size: 17px;
   color: black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 #mother-header {
