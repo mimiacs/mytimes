@@ -41,6 +41,14 @@ a, li {
   color: black;
 }
 
+.mother {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+}
+
+#mother-header {
+  color: white;
+}
+
 .cats {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
 }
