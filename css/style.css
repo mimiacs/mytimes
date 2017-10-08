@@ -1,13 +1,4 @@
-.container {
-  display: flex;
-  justify-content: space-between;
-  border-bottom: solid;
-  border: solid;
-  border-color: black;
-  border-width: thin;
-}
-
-.header {
+header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
@@ -19,38 +10,29 @@
   border: solid;
   border-color: black;
   border-width: thin;
+  /*padding-right: 30px;*/
 }
 
-#header-text {
+.logo {
+display: flex;
+align-items: center;
+flex-grow: 1;
+border: solid;
+border-width: thin;
+border-color: black;
+}
+
+.logo span {
   padding-left: 10px;
 }
 
-#header-nav {
-  display: inline-flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  font-family: Verdana;
-  font-size: 14px;
-  font-weight: bold;
-  padding-right: 30px;
+nav {
+  padding-right: 20px;
 }
 
-ul {
-  display: inline-flex;
-  justify-content: space-around;
-  align-items: flex-end;
-  flex-direction: row;
-  align-content: flex-end;
-}
-
-a, li {
-  display: inline-flex;
-  justify-content: space-around;
-  align-items: flex-end;
-  flex-direction: row;
-  align-content: flex-end;
-  padding: 5px;
+nav span a {
   color: black;
+  padding-left: 20px;
 }
 
 .news {
@@ -60,33 +42,27 @@ a, li {
   flex-direction: row;
   border-width: thin;
   padding-top: 40px;
+  justify-content: center;
 }
 
-.column-large {
+.column {
   border: solid;
   border-color: black;
   display: flex;
   flex-direction: column;
   border-width: thin;
-  width: 630px;
   margin-right: 32px;
 }
 
-.column-medium {
-  border: solid;
-  border-color: black;
-  display: flex;
-  flex-direction: column;
-  border-width: thin;
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
   width: 300px
 }
 
-.column-small {
-  border: solid;
-  border-color: black;
-  display: flex;
-  flex-direction: column;
-  border-width: thin;
+.column.small {
   width: 240px
 }
 
@@ -123,9 +99,20 @@ a, li {
   font-family: Georgia;
   font-size: 17px;
   color: black;
+  display: flex;
+  justify-content: space-between;
 }
 
 .orca {
+  border: solid;
+  border-color: black;
+  border-width: thin;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.burger {
   border: solid;
   border-color: black;
   border-width: thin;
@@ -148,15 +135,6 @@ a, li {
   margin-top: 15px;
   text-align: center;
   justify-content: center;
-}
-
-.burger {
-  border: solid;
-  border-color: black;
-  border-width: thin;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
 }
 
 .cameras {
@@ -224,56 +202,27 @@ a, li {
   color: black;
 }
 
-/*
-.news {
-  display: flex;
-  flex-direction: column;
-}
-
-.mother {
-  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
-}
-
-#mother-header {
-  color: white;
-}
-
-.cats {
-  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
-}
-
-#cats-header {
-  color: white;
-}
-
-.earth {
-  color: white;
-  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
-}
-
-.cameras {
-  color: white;
-  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
-}
-
 footer {
   background-color: mediumaquamarine;
-  display: flex;
+  text-align: center;
 }
 
-.mytimes {
+.title {
+  border-right: 2px solid white;
+  padding-right: 20px;
   color: white;
-  font-weight:bold;
-  font-size: 20px;
-  display: inline-flex;
+  font-family: Georgia;
+  font-weight: bold;
 }
 
-.footer-nav {
-  display: flex;
+footer nav {
+  display: inline-block;
+  padding-left: 15px;
+  font-family: verdana;
+  font-size: 12px;
 }
 
 .copyright {
-  align-items: flex-end;
-  align-items: flex-end;
+  font-family: verdana;
+  font-size: 12px;
 }
-*/
